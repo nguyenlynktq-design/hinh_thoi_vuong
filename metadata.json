@@ -1,0 +1,6 @@
+{
+  "name": "Bài 14: Hình Thoi và Hình Vuông - Toán 8 KNTT",
+  "description": "Ứng dụng học tập trực quan Toán 8 Kết nối tri thức: khám phá hình thoi, hình vuông, phòng lab tương tác, luyện tập 3 mức độ và thuyết minh giọng cô giáo miền Bắc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
