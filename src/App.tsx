@@ -45,7 +45,7 @@ export default function App() {
 
   const handleTestVoice = () => {
     soundService.playTeacherSection('teacher_test');
-    showToast('Đang phát giọng cô giáo Nữ miền Bắc (Hà Nội) 🎙️');
+    showToast('Đang phát giọng thầy giáo Nam (Hà Nội, rõ ràng) 🎙️');
   };
 
   const handleToggleFullScreen = () => {
@@ -106,7 +106,7 @@ export default function App() {
       <footer className="border-t border-slate-800/80 bg-[#070c18] py-4 px-6 text-center text-xs text-slate-400">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>📚 Toán 8 Kết nối tri thức với cuộc sống • Bài 14: Hình Thoi & Hình Vuông</span>
-          <span className="text-amber-300 font-bold">🎙️ Thuyết minh: Cô giáo Nữ miền Bắc (Hà Nội)</span>
+          <span className="text-amber-300 font-bold">🎙️ Thuyết minh: Thầy giáo Nam (Hà Nội, rõ ràng & dứt khoát)</span>
         </div>
       </footer>
 

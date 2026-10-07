@@ -180,7 +180,7 @@ export const VoiceSettingsModal: React.FC<{
             <div className="w-9 h-9 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center font-black text-lg border border-amber-400/40">🎙️</div>
             <div>
               <h3 className="text-base font-black text-white uppercase tracking-wide">Giọng Thuyết Minh Giáo Viên</h3>
-              <span className="text-xs text-amber-300 font-bold">Chuẩn Nữ miền Bắc (Hà Nội)</span>
+              <span className="text-xs text-amber-300 font-bold">Thầy giáo: Nam (Hà Nội, rõ ràng & dứt khoát)</span>
             </div>
           </div>
           <button onClick={onClose} className="text-slate-400 hover:text-white text-xl font-bold cursor-pointer">✕</button>
@@ -188,7 +188,7 @@ export const VoiceSettingsModal: React.FC<{
 
         <div className="space-y-3.5 text-sm">
           <p className="text-slate-200 leading-relaxed font-medium">
-            Hệ thống bài giảng đã được <strong className="text-amber-300 font-bold">tải sẵn trọn bộ 10 tệp âm thanh MP3</strong> giọng cô giáo miền Bắc (Hà Nội) nhẹ nhàng, truyền cảm và rõ ràng từng ký hiệu toán học.
+            Hệ thống bài giảng đã được <strong className="text-amber-300 font-bold">tải sẵn trọn bộ âm thanh MP3</strong> giọng thầy giáo miền Bắc (Hà Nội) rõ ràng, đĩnh đạc và rành mạch từng định lí, bài tập hình học.
           </p>
 
           <div className="p-3 bg-[#070c18] rounded-xl border border-slate-700 space-y-2">
@@ -217,13 +217,13 @@ export const VoiceSettingsModal: React.FC<{
               </button>
             </div>
             <div className="text-xs text-emerald-400 font-medium pt-1">
-              ✓ 10/10 file thuyết minh đã sẵn sàng trong app, hoạt động mượt mà không cần mạng.
+              ✓ Đã sẵn sàng tất cả bài giảng từ Tab 1 đến Tab 6 trong app, hoạt động mượt mà không cần mạng.
             </div>
           </div>
 
           <div className="p-3 bg-[#070c18] rounded-xl border border-slate-700 space-y-2">
             <div className="flex justify-between items-center text-xs font-bold text-slate-300">
-              <span>Tốc độ đọc của cô giáo:</span>
+              <span>Tốc độ đọc của thầy giáo:</span>
               <span className="text-amber-300 font-mono font-bold">{rate.toFixed(2)}x</span>
             </div>
             <input
@@ -248,7 +248,7 @@ export const VoiceSettingsModal: React.FC<{
               className="flex-1 py-3 px-4 rounded-xl gold-btn text-night-950 font-black text-sm flex items-center justify-center gap-2 shadow-lg cursor-pointer"
             >
               <span>🔊</span>
-              <span>Nghe thử giọng cô giáo</span>
+              <span>Nghe thử giọng thầy giáo</span>
             </button>
             <button
               onClick={onClose}
